@@ -1,0 +1,6 @@
+{
+  "name": "MOODBREW — Coffee for the Feeling",
+  "description": "An interactive mood-based café brand connecting emotions with bespoke coffee experiences and The MOOD LETTER.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
