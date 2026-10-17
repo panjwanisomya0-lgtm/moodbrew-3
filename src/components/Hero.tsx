@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Compass, Coffee } from 'lucide-react';
+import { IMAGES } from '../assets/assets';
 
 interface HeroProps {
   onDiscoverClick: () => void;
@@ -79,7 +80,7 @@ export const Hero: React.FC<HeroProps> = ({ onDiscoverClick, onExploreClick }) =
 
               <div className="relative overflow-hidden rounded-xl shadow-xl aspect-4/3 sm:aspect-5/4 lg:aspect-4/5 bg-[#EFE9DF]">
                 <img
-                  src="/src/assets/images/hero_artisanal_latte_1792164452790.jpg"
+                  src={IMAGES.hero}
                   alt="Ceramic coffee cup with delicate latte art resting on a warm wooden café table in soft morning light"
                   className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"

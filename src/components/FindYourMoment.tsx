@@ -1,5 +1,6 @@
 import React from 'react';
 import { Compass, Coffee, Clock, Sparkles } from 'lucide-react';
+import { IMAGES } from '../assets/assets';
 
 interface FindYourMomentProps {
   onFindMoodClick: () => void;
@@ -82,7 +83,7 @@ export const FindYourMoment: React.FC<FindYourMomentProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="rounded-2xl overflow-hidden aspect-4/3 shadow-xl border border-white/10">
                 <img
-                  src="/src/assets/images/hero_artisanal_latte_1792164452790.jpg"
+                  src={IMAGES.hero}
                   alt="Ceramic coffee cup on wooden table"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

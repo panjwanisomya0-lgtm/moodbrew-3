@@ -1,4 +1,5 @@
 import React from 'react';
+import { IMAGES } from '../assets/assets';
 
 export const CoffeeMoment: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ export const CoffeeMoment: React.FC = () => {
         {/* Full-width atmospheric visual */}
         <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-16/9 bg-[#2D201C]">
           <img
-            src="/src/assets/images/moment_sunlit_table_1792164454048.jpg"
+            src={IMAGES.momentTable}
             alt="Warm hands gently cupping a handcrafted ceramic mug with coffee beans and open journal on a sunlit wooden table"
             className="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-1000"
             referrerPolicy="no-referrer"

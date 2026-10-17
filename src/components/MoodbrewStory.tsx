@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Sparkles, Feather } from 'lucide-react';
+import { IMAGES } from '../assets/assets';
 
 export const MoodbrewStory: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ export const MoodbrewStory: React.FC = () => {
 
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-4/3 sm:aspect-5/4 bg-[#EFE9DF]">
                 <img
-                  src="/src/assets/images/story_cafe_atmosphere_1792164453968.jpg"
+                  src={IMAGES.storyCafe}
                   alt="Atmospheric sunlit MOODBREW café counter with warm natural wood and ceramic shelves"
                   className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
